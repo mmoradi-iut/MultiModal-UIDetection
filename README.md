@@ -26,11 +26,35 @@ In this repository, you can find information, results, data, and source codes of
 <img width="400" src="https://github.com/mmoradi-iut/MultiModal-UIDetection/blob/main/Figure-5.jpg">
 
 <h2>Dataset</h2>
-<p>The dataset contains 16,155 UI screenshots, each annotated with bounding boxes and corresponding class labels. We split the dataset into a training set of 14,155 images and a test set of 2,000 images, with 10% of the training set (1,416 images) used as a validation set during training. The dataset includes 23 distinct UI control classes, representing a wide range of interface components such as buttons, icons, input fields, and charts.</p>
+<p>The dataset contains 16,155 UI screenshots, each annotated with bounding boxes and corresponding class labels. We split the dataset into a training set of 14,155 images and a test set of 2,000 images, with 10% of the training set (1,416 images) used as a validation set during training. The dataset includes 23 distinct UI control classes, representing a wide range of interface components:</p>
+
+<p>•	Icon</p>
+<p>•	Dropdown</p>
+<p>•	Button</p>
+<p>•	Menu</p>
+<p>•	Input</p>
+<p>•	List</p>
+<p>•	TabBar</p>
+<p>•	Table</p>
+<p>•	Radio_Selected</p>
+<p>•	Radio_Unselected</p>
+<p>•	Checkbox_Unchecked</p>
+<p>•	Checkbox_Checked</p>
+<p>•	Tree</p>
+<p>•	Image</p>
+<p>•	Text</p>
+<p>•	Label_of_the_Textarea</p>
+<p>•	Description_List</p>
+<p>•	Legend</p>
+<p>•	Horizontal_Axis</p>
+<p>•	Chart</p>
+<p>•	Graph</p>
+<p>•	Vertical_Axis</p>
+<p>•	Date_area</p>
 
 In order to have access to the datasets and source codes, and get the permision, send an email to m.moradi-vastegani@tricentis.com.
 
 <h2>Computational cost</h2>
 <p>The following table presents the number of parameters, average training time, and average inference time measured for different variations of the multi-modal UI detection model and the baseline.</p>
 <br>
-<img width="800" src="https://github.com/mmoradi-iut/MultiModal-UIDetection/blob/main/Table-1.jpg">
+<img width="800" src="https://github.com/mmoradi-iut/MultiModal-UIDetection/blob/main/Table-7.jpg">
