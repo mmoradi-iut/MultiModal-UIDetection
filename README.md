@@ -16,3 +16,7 @@ In this repository, you can find information, results, data, and source codes of
 <p>The first fusion method is <b>element-wise addition</b>, where each element in the attended feature tensor is simply added to the corresponding element in the image feature tensor. This approach is computationally efficient and straightforward to implement, with no additional parameters introduced during merging.</p>
 <br>
 <img width="400" src="https://github.com/mmoradi-iut/MultiModal-UIDetection/blob/main/Figure-3.jpg">
+
+<p>The second fusion method is <b>weighted sum</b>, where learnable scalar weights are assigned to both the attended and image features before summation. These weights are trained jointly with the rest of the model, allowing it to dynamically adjust the importance of visual and textual inputs during training.</p>
+<br>
+<img width="400" src="https://github.com/mmoradi-iut/MultiModal-UIDetection/blob/main/Figure-4.jpg">
