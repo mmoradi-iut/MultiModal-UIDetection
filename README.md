@@ -24,3 +24,8 @@ In this repository, you can find information, results, data, and source codes of
 <p>The third fusion method is <b>convolutional fusion</b>, where the attended and image features are first concatenated along the channel dimension and then passed through a convolutional layer. This approach allows the model to learn complex, non-linear interactions between the two modalities and adaptively integrate them at each spatial location.</p>
 <br>
 <img width="400" src="https://github.com/mmoradi-iut/MultiModal-UIDetection/blob/main/Figure-5.jpg">
+
+<h2>Dataset</h2>
+<p>The dataset contains 16,155 UI screenshots, each annotated with bounding boxes and corresponding class labels. We split the dataset into a training set of 14,155 images and a test set of 2,000 images, with 10% of the training set (1,416 images) used as a validation set during training. The dataset includes 23 distinct UI control classes, representing a wide range of interface components such as buttons, icons, input fields, and charts.</p>
+
+In order to have access to the datasets and get the permision, send an email to m.moradi-vastegani@tricentis.com.
