@@ -11,3 +11,8 @@ In this repository, you can find information, results, data, and source codes of
 <p>The following image illustrates the overal architecture of the neck part of our multi-modal detection model. The Backbone remains as same as the YOLOv5 model.</p>
 <br>
 <img width="400" src="https://github.com/mmoradi-iut/MultiModal-UIDetection/blob/main/Figure-6.jpg">
+
+<h2>Cross-attention modules</h2>
+<p>The first fusion method is <b>element-wise addition</b>, where each element in the attended feature tensor is simply added to the corresponding element in the image feature tensor. This approach is computationally efficient and straightforward to implement, with no additional parameters introduced during merging.</p>
+<br>
+<img width="400" src="https://github.com/mmoradi-iut/MultiModal-UIDetection/blob/main/Figure-3.jpg">
