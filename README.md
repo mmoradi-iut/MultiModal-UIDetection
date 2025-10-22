@@ -57,4 +57,4 @@ In order to have access to the datasets and source codes, and get the permision,
 <h2>Computational cost</h2>
 <p>The following table presents the number of parameters, average training time, and average inference time measured for different variations of the multi-modal UI detection model and the baseline.</p>
 <br>
-<img width="800" src="https://github.com/mmoradi-iut/MultiModal-UIDetection/blob/main/Table-7.jpg">
+<img width="700" src="https://github.com/mmoradi-iut/MultiModal-UIDetection/blob/main/Table-7.jpg">
