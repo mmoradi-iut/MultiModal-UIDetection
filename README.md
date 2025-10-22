@@ -6,7 +6,7 @@ In this repository, you can find information, results, data, and source codes of
 <h2>Multi-modal user interface control detection model</h2>
 <p>The following image illustrates the overal architecture of the YOLO model that serves as the basis of our multi-modal detection model:</p>
 <br>
-<img width="600" src="https://github.com/mmoradi-iut/MultiModal-UIDetection/blob/main/Figure-1.jpg">
+<img width="800" src="https://github.com/mmoradi-iut/MultiModal-UIDetection/blob/main/Figure-1.jpg">
 
 <p>The following image illustrates the overal architecture of the neck part of our multi-modal detection model. The Backbone remains as same as the YOLOv5 model.</p>
 <br>
