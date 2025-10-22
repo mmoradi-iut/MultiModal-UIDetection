@@ -20,3 +20,7 @@ In this repository, you can find information, results, data, and source codes of
 <p>The second fusion method is <b>weighted sum</b>, where learnable scalar weights are assigned to both the attended and image features before summation. These weights are trained jointly with the rest of the model, allowing it to dynamically adjust the importance of visual and textual inputs during training.</p>
 <br>
 <img width="400" src="https://github.com/mmoradi-iut/MultiModal-UIDetection/blob/main/Figure-4.jpg">
+
+<p>The third fusion method is <b>convolutional fusion</b>, where the attended and image features are first concatenated along the channel dimension and then passed through a convolutional layer. This approach allows the model to learn complex, non-linear interactions between the two modalities and adaptively integrate them at each spatial location.</p>
+<br>
+<img width="400" src="https://github.com/mmoradi-iut/MultiModal-UIDetection/blob/main/Figure-5.jpg">
